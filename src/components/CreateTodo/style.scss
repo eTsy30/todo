@@ -1,0 +1,19 @@
+.createTodo_container {
+  border-bottom: 1px solid #d0e5f9;
+  background-color: white;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.createTodo_input {
+  width: 90%;
+  border: none;
+  background-color: white;
+  color: black;
+  margin-right: 15px;
+}
+
+.input_wrapper {
+  display: flex;
+}

@@ -1,0 +1,22 @@
+.item_container {
+  border-bottom: 1px solid #d0e5f9;
+  background-color: white;
+  height: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.item_input {
+  width: 70%;
+  border: none;
+  background-color: white;
+  color: black;
+
+  &:disabled {
+    font-weight: 900;
+    color: gray;
+  }
+}
+.input_cheked {
+  text-decoration: line-through;
+}
